@@ -1,8 +1,16 @@
 # Change Log - cpupro-webpack-plugin
 
-This log was last generated on Tue, 22 Mar 2022 17:33:39 GMT and should not be manually modified.
+This log was last generated on Tue, 22 Mar 2022 17:35:51 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.0.6
+
+Tue, 22 Mar 2022 17:35:51 GMT
+
+### Patches
+
+- fixed publish to actually take in the built artifacts (kchau@microsoft.com)
 
 ## 1.0.5
 

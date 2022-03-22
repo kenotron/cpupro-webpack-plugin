@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fixed publish to actually take in the built artifacts",
-  "packageName": "cpupro-webpack-plugin",
-  "email": "kchau@microsoft.com",
-  "dependentChangeType": "patch"
-}
