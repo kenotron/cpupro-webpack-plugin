@@ -2,6 +2,21 @@
   "name": "cpupro-webpack-plugin",
   "entries": [
     {
+      "date": "Tue, 22 Mar 2022 04:36:28 GMT",
+      "tag": "cpupro-webpack-plugin_v1.0.3",
+      "version": "1.0.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "kchau@microsoft.com",
+            "package": "cpupro-webpack-plugin",
+            "commit": "49fa28947f1b5987f0ab8e57dd354df8a7f6fbe2",
+            "comment": "README.md update"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 22 Mar 2022 04:14:53 GMT",
       "tag": "cpupro-webpack-plugin_v1.0.2",
       "version": "1.0.2",

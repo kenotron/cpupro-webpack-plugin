@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "README.md update",
-  "packageName": "cpupro-webpack-plugin",
-  "email": "kchau@microsoft.com",
-  "dependentChangeType": "patch"
-}
