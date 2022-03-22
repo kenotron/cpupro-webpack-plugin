@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc",
     "start": "tsc -w --preserveWatchOutput",
-    "change": "beachball change",
-    "release": "beachball publish"
+    "change": "beachball change -b origin/main",
+    "release": "beachball publish -b origin/main"
   }
 }
