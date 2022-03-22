@@ -18,7 +18,7 @@ export class CPUProfileWebpackPlugin {
   }
 
   apply(compiler: Compiler): void {
-    const logger = compiler.getInfrastructureLogger("cuppro-webpack-plugin");
+    const logger = compiler.getInfrastructureLogger(PluginName);
 
     if (!this.options.outputPath) {
       this.options.outputPath = path.resolve(compiler.options.output.path, "webpack.cpuprofile");
