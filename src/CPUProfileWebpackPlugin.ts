@@ -24,11 +24,11 @@ export class CPUProfileWebpackPlugin {
       this.options.outputPath = path.resolve(compiler.options.output.path, "webpack.cpuprofile");
     }
 
-    compiler.hooks.beforeRun.tapPromise(PluginName, async (_compiler) => {
-      logger.info(`Starting CPU Profile: ${this.profileName}`);
-      profiler.profile(this.profileName);
-    });
+    // Start profiling as soon as this plugin is applied
+    logger.info(`Starting CPU Profile: ${this.profileName}`);
+    profiler.profile(this.profileName);
 
+    // Stop profiling when the entire webpack run is done
     compiler.hooks.done.tapPromise(PluginName, async (_stats) => {
       const { outputPath } = this.options;
       const profile = profiler.profileEnd(this.profileName);
