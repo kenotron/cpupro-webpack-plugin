@@ -2,6 +2,21 @@
   "name": "cpupro-webpack-plugin",
   "entries": [
     {
+      "date": "Tue, 22 Mar 2022 15:49:55 GMT",
+      "tag": "cpupro-webpack-plugin_v1.0.4",
+      "version": "1.0.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "kchau@microsoft.com",
+            "package": "cpupro-webpack-plugin",
+            "commit": "95f89285b633f1e059bba05f270969c9ec330d46",
+            "comment": "fixing the hooks for when to start profiling"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 22 Mar 2022 04:36:28 GMT",
       "tag": "cpupro-webpack-plugin_v1.0.3",
       "version": "1.0.3",

@@ -1,8 +1,16 @@
 # Change Log - cpupro-webpack-plugin
 
-This log was last generated on Tue, 22 Mar 2022 04:36:28 GMT and should not be manually modified.
+This log was last generated on Tue, 22 Mar 2022 15:49:55 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.0.4
+
+Tue, 22 Mar 2022 15:49:55 GMT
+
+### Patches
+
+- fixing the hooks for when to start profiling (kchau@microsoft.com)
 
 ## 1.0.3
 
