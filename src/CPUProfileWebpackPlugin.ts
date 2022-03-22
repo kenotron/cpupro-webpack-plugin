@@ -21,20 +21,19 @@ export class CPUProfileWebpackPlugin {
     const logger = compiler.getInfrastructureLogger("cuppro-webpack-plugin");
 
     if (!this.options.outputPath) {
-      this.options.outputPath = compiler.options.output.path;
+      this.options.outputPath = path.resolve(compiler.options.output.path, "webpack.cpuprofile");
     }
 
     compiler.hooks.beforeRun.tapPromise(PluginName, async (_compiler) => {
+      logger.info(`Starting CPU Profile: ${this.profileName}`);
       profiler.profile(this.profileName);
     });
 
     compiler.hooks.done.tapPromise(PluginName, async (_stats) => {
+      const { outputPath } = this.options;
       const profile = profiler.profileEnd(this.profileName);
-
-      const cpuprofileFilePath = path.resolve(this.options.outputPath, "webpack.cpuprofile");
-      profile.writeToFile(cpuprofileFilePath);
-
-      logger.info(`CPU Profile written to: ${cpuprofileFilePath}`);
+      profile.writeToFile(outputPath);
+      logger.info(`CPU Profile written to: ${outputPath}`);
     });
   }
 }
