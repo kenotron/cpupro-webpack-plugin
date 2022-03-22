@@ -13,7 +13,7 @@ const PluginName = "CPUProfileWebpackPlugin";
 export class CPUProfileWebpackPlugin {
   private profileName: string;
 
-  constructor(private options: CPUProfileWebpackPluginOptions) {
+  constructor(private options: CPUProfileWebpackPluginOptions = {}) {
     this.profileName = options.profileName ?? "webpack";
   }
 
