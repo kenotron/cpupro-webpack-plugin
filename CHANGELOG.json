@@ -2,6 +2,21 @@
   "name": "cpupro-webpack-plugin",
   "entries": [
     {
+      "date": "Tue, 22 Mar 2022 17:33:39 GMT",
+      "tag": "cpupro-webpack-plugin_v1.0.5",
+      "version": "1.0.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "kchau@microsoft.com",
+            "package": "cpupro-webpack-plugin",
+            "commit": "e6b4ab924162e774b73ad7ff863534cd6f4f0118",
+            "comment": "getting rid of error of not having a default param"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 22 Mar 2022 15:49:55 GMT",
       "tag": "cpupro-webpack-plugin_v1.0.4",
       "version": "1.0.4",

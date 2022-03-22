@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "getting rid of error of not having a default param",
-  "packageName": "cpupro-webpack-plugin",
-  "email": "kchau@microsoft.com",
-  "dependentChangeType": "patch"
-}
