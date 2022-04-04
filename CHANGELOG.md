@@ -1,8 +1,16 @@
 # Change Log - cpupro-webpack-plugin
 
-This log was last generated on Tue, 22 Mar 2022 17:35:51 GMT and should not be manually modified.
+This log was last generated on Mon, 04 Apr 2022 22:31:23 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.1.0
+
+Mon, 04 Apr 2022 22:31:23 GMT
+
+### Minor changes
+
+- Replace the dependency of cpupro with inspector (kchau@microsoft.com)
 
 ## 1.0.6
 

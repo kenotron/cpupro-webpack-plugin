@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Replace the dependency of cpupro with inspector",
-  "packageName": "cpupro-webpack-plugin",
-  "email": "kchau@microsoft.com",
-  "dependentChangeType": "patch"
-}
