@@ -2,11 +2,15 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES2019",
-    "allowJs": true,
-    "noImplicitAny": false,
+    "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "outDir": "lib"
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "lib",
+    "outDir": "lib",
+    "types": ["node"],
+    "skipLibCheck": true // We're using both the webpack 4 and webpack 5 typings, which conflict
   },
   "include": ["src"]
 }
