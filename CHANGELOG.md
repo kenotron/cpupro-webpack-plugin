@@ -1,8 +1,16 @@
 # Change Log - cpupro-webpack-plugin
 
-This log was last generated on Mon, 04 Apr 2022 22:31:23 GMT and should not be manually modified.
+This log was last generated on Wed, 04 May 2022 17:01:53 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.2.0
+
+Wed, 04 May 2022 17:01:53 GMT
+
+### Minor changes
+
+- Add support for Webpack 4 and publish TypeScript declarations. (iclanton@users.noreply.github.com)
 
 ## 1.1.0
 
